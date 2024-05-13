@@ -19,7 +19,7 @@ export async function testAction(
         fields[key] = data[key].toString();
     }
 
-    const messages = await getTranslations('messages')
+    const toasts = await getTranslations('toasts')
 
     try {
 
@@ -28,7 +28,7 @@ export async function testAction(
 
         return {
             status: "success",
-            message: messages('toasts.success'),
+            message: toasts('success'),
         };
 
     } catch (error) {
@@ -62,7 +62,7 @@ export async function testAction(
 
         return {
             status: "error",
-            message: messages('toasts.error'),
+            message: toasts('error'),
             fields,
         };
     }
