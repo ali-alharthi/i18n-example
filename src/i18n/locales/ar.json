@@ -1,0 +1,24 @@
+{
+    "common": {
+        "title": "مثال ترجمة",
+        "localeSwitcher": {
+            "label": "تغيير اللغة",
+            "locale": "{locale, select, ar {🇸🇦 العربية} en {🇺🇸 English} other {Unknown}}"
+        }
+    },
+    "validations": {
+        "fields": {
+            "email": "البريد الإلكتروني",
+            "password": "كلمة المرور"
+        },
+        "buttons": {
+            "submit": "إرسال"
+        },
+        "required": "حقل {field} مطلوب",
+        "invalid": "الرجاء إدخال {field} صالح"
+    },
+    "toasts": {
+        "success": "رائع!",
+        "error": "خطأ!"
+    }
+}

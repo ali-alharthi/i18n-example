@@ -1,0 +1,24 @@
+{
+    "common": {
+        "title": "i18n Example",
+        "localeSwitcher": {
+            "label": "Change language",
+            "locale": "{locale, select, ar {🇸🇦 العربية} en {🇺🇸 English} other {Unknown}}"
+        }
+    },
+    "validations": {
+        "fields": {
+            "email": "Email",
+            "password": "Password"
+        },
+        "buttons": {
+            "submit": "Submit"
+        },
+        "required": "The {field} field is required",
+        "invalid": "Please enter a valid {field}"
+    },
+    "toasts": {
+        "success": "Yay!",
+        "error": "Error!"
+    }
+}
